@@ -22,7 +22,8 @@ export default function DashSidebar() {
               active={tab === 'profile'}
               icon={HiUser}
               label={/*currentUser.isAdmin ? 'Admin' :*/ 'User'}
-              labelColor='dark' >
+              labelColor='dark'
+              as='div' >
               Profile
             </Sidebar.Item>
            </Link>
